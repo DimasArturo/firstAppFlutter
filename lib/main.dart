@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/components/text.dart';
+import 'package:flutter_application_1/components/button.dart';
+// import 'package:flutter_application_1/components/text.dart';
+// import 'package:flutter_application_1/components/textField.dart';
 // import 'package:flutter_application_1/layouts/column.dart';
 // import 'package:flutter_application_1/layouts/row.dart';
 
@@ -13,7 +15,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(body: TextExample()),
+      home: Scaffold(body:ButtonExample()),
     );
   }
 }
