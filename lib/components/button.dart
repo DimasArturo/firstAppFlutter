@@ -21,6 +21,7 @@ class ButtonExample extends StatelessWidget {
         OutlinedButton(onPressed: null, child: Text("Outlined Button")),
         TextButton(onPressed: null, child: Text("Text Button")),
         FloatingActionButton(onPressed: null, child: Icon(Icons.add)),
+        IconButton(onPressed: () {}, icon: Icon(Icons.add)),
         Spacer(),
       ],
     );
